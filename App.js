@@ -17,7 +17,7 @@ export default function App() {
           headerTintColor: '#fff', // White text color for contrast
         }}
       >
-        <Drawer.Screen name="Hello Martin 2" component={Home} />
+        <Drawer.Screen name="inbox" component={Home} />
         <Drawer.Screen name="About" component={About} />
         <Drawer.Screen name="Contact" component={Contact} />
       </Drawer.Navigator>
